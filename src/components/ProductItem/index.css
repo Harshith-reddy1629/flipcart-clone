@@ -1,0 +1,30 @@
+.product-item {
+  display: grid;
+  gap: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  padding: 6px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 20/21;
+  transition: all 0.1s;
+  object-position: 50% 50%;
+  object-fit: contain;
+  /* mix-blend-mode: ; */
+}
+.product-image:hover {
+  scale: 103%;
+}
+
+.product-name {
+  font-size: 14px;
+}
+
+.product-price {
+  font-size: 15px;
+  font-weight: 600;
+}

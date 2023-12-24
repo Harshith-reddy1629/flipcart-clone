@@ -1,0 +1,13 @@
+.categories-list-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+}
+
+.category-container {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}

@@ -1,6 +1,6 @@
 .navbar {
   /* align-items: center; */
-  padding: 13px 13px;
+  padding: 13px 83px 13px 58px;
   background-color: #fff;
 }
 .navbar-container {
@@ -15,7 +15,7 @@
   align-items: center;
   gap: 5px;
   background-color: #f0f5ff;
-  width: 710px;
+  width: 770px;
   height: 40px;
   border-radius: 8px;
   overflow: hidden;
@@ -30,13 +30,16 @@
   outline: none;
   font-size: 16px;
 }
-
+.seller-para {
+  white-space: nowrap;
+}
 .account-sector {
   display: flex;
-  align-items: flex-end;
-  gap: 6px;
+  align-items: center;
+  gap: 10px;
   padding: 9px;
   letter-spacing: 0.5px;
+  border: 1px solid transparent;
 }
 
 .account-sector:hover .arrow {
@@ -45,6 +48,9 @@
 
 .arrow {
   transition: transform 0.35s;
+}
+.dot-menu {
+  box-sizing: border-box;
 }
 
 .dashboard:hover,
@@ -64,20 +70,35 @@
   /* border: 1px solid rgb(190, 190, 190); */
   box-shadow: 0 0 10px rgb(0 0 0/20%);
   border-radius: 0 0 8px 8px;
+  z-index: 2;
+}
+.help-menu {
+  display: none;
+  position: absolute;
+  top: 102%;
+  right: 0;
+  background-color: #fff;
+  /* border: 1px solid rgb(190, 190, 190); */
+  box-shadow: 0 0 10px rgb(0 0 0/20%);
+  border-radius: 0 0 8px 8px;
+  z-index: 2;
 }
 
 .dashboard:hover .dashboard-menu {
   display: inline-block;
 }
+.dot-menu:hover .help-menu {
+  display: inline-block;
+}
 
 .dashboard-menu-listitem {
-  padding: 8px 1.5rem 8px 12px;
+  padding: 10px 1.5rem 10px 12px;
   white-space: nowrap;
-  font-size: 14px;
+  font-size: 14.5px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 .dashboard-menu-listitem:hover {
-  background-color: #0000010;
+  background-color: #00000006;
 }

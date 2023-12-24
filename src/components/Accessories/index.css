@@ -1,0 +1,35 @@
+.clothing-container {
+  background-color: #fff;
+  padding: 2rem 1rem 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.clothing-heading {
+  font-size: 20px;
+}
+
+.clothing-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  gap: 1rem;
+}
+
+.product-sector {
+  display: flex;
+  gap: 1.5rem;
+  width: 100%;
+  /* overflow-x: hidden; */
+}
+
+.banner-img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

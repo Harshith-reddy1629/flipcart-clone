@@ -1,0 +1,15 @@
+.category-name {
+  font-size: 13.5px;
+  font-weight: 600;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.category-item:hover .category-name {
+  color: #2874f0;
+}
