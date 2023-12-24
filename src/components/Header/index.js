@@ -18,7 +18,7 @@ import "./index.css";
 const Header = () => (
   <nav className="navbar">
     <div className="navbar-container">
-      <img src={F} alt="..." />
+      <img className="logo" src={F} alt="..." />
       <div className="search-container">
         <label className="search-label">
           {" "}
@@ -32,7 +32,7 @@ const Header = () => (
       </div>
       <div className="account-sector dashboard">
         <FaRegCircleUser size="18" />
-        <p>Anonymous</p>
+        <p className="mobile-disable">Anonymous</p>
         <IoIosArrowDown className="arrow" size="13" />
         <ul className="dashboard-menu">
           <li className="dashboard-menu-listitem">
@@ -83,11 +83,11 @@ const Header = () => (
       </div>
       <div className="account-sector">
         <BsCart3 size="18" />
-        <p>Cart</p>
+        <p className="mobile-disable">Cart</p>
       </div>
       <div className="account-sector">
         <BsShopWindow size="18" />
-        <p className="seller-para">Become a Seller</p>
+        <p className="seller-para mobile-disable">Become a Seller</p>
       </div>
       <div className="account-sector dot-menu">
         <BsThreeDotsVertical />

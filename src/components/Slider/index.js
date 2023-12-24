@@ -59,7 +59,7 @@ const SliderC = () => {
     // <div className="silder-container">
     <Slider {...settings}>
       {carouselImages.map((each) => (
-        <img src={each} alt="." />
+        <img className="slider-img" src={each} alt="." />
       ))}
     </Slider>
     // </div>

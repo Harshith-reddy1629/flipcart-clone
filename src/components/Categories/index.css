@@ -1,7 +1,7 @@
 .categories-list-container {
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 3.5rem;
 }
 
@@ -10,4 +10,15 @@
   display: flex;
   justify-content: center;
   padding: 1rem;
+}
+
+@media (max-width: 992px) {
+  .categories-list-container {
+    gap: 10px;
+  }
+  .category-container {
+    justify-content: start;
+    width: 100%;
+    overflow-x: auto;
+  }
 }
