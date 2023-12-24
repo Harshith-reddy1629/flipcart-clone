@@ -14,7 +14,7 @@ const Accessories = () => {
           ))}
         </ul>
       </div>
-      <div className='img-container'>
+      <div className="img-container">
         <img
           src="https://rukminim1.flixcart.com/fk-p-flap/520/280/image/19bc292770c054a9.jpg?q=20"
           alt="."
