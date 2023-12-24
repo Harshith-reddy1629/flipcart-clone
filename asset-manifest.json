@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/flipcart-clone/static/css/main.06128914.css",
+    "main.js": "/flipcart-clone/static/js/main.dac4478a.js",
+    "static/js/564.c49b7d14.chunk.js": "/flipcart-clone/static/js/564.c49b7d14.chunk.js",
+    "static/media/f.svg": "/flipcart-clone/static/media/f.11f9e2f7d0d3208852b0033b9714baa7.svg",
+    "static/media/slick.svg": "/flipcart-clone/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/flipcart-clone/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/fkplus.svg": "/flipcart-clone/static/media/fkplus.f1a0461d0aba3b0451068fa1eb3a5fc5.svg",
+    "static/media/slick.ttf": "/flipcart-clone/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/flipcart-clone/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/super_coin.webp": "/flipcart-clone/static/media/super_coin.c861ad29c9a96140d98f.webp",
+    "index.html": "/flipcart-clone/index.html",
+    "main.06128914.css.map": "/flipcart-clone/static/css/main.06128914.css.map",
+    "main.dac4478a.js.map": "/flipcart-clone/static/js/main.dac4478a.js.map",
+    "564.c49b7d14.chunk.js.map": "/flipcart-clone/static/js/564.c49b7d14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06128914.css",
+    "static/js/main.dac4478a.js"
+  ]
+}
